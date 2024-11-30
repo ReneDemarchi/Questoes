@@ -1,0 +1,21 @@
+A tabela abaixo descreve as categorias utilizadas na distribuição e preenchimento de vagas em processos seletivos como Vestibular, com base na Política de Ações Afirmativas (PAA) de uma Instituição de Ensino:
+
+A priorização na ocupação de vagas de um curso segue os passos e regras, conforme exemplificado abaixo, na ordem indicada:
+
+(*) Os candidatos das categorias listadas concorrem em igualdade de condições, ou seja, são selecionados os candidatos mais bem classificados, independentememte da categoria.
+
+Dados então, os passos e regras, a quantidade de vagas disponíveis por categoria para um curso e a lista de candidatos do processo seletivo já em ordenados segundo os critérios de classificação, selecione os candidatos a ocupar as correspondentes vagas do curso.
+
+Entrada
+
+Nas primeiras linhas estão os passos e as regras, conforme exemplificado acima, sendo que cada linha corresponde a uma regra no formato "<passo> <regra> <categoria> <ordem de seleção dos candidatos>", cada um dos campos separados por um espaço em branco. A  <ordem de seleção dos candidatos>  é dado por uma lista "<p1>;<p2>;...;<pn>"de itens, cada um separado do outro por um ponto-e-vírgula, sendo que cada pi  corresponde a um conjunto de categorias separadas por vírgula. Os passos e regras encerram com um valor 0 (zero) tanto para o passo como para a regra.
+
+Nas linhas seguintes estão as C de categorias que aparecem nas regras, 1 ≤ C ≤ 15, e o correspondente número de vagas no curso.
+
+Por último vem uma linha com o número D de candidatos aprovados no processo seletivo,  0 ≤ D ≤ 500, seguidas de D linhas com triplas "<ordem de classificação> <nº de inscrição> <categorias>" correspondentes aos candidatos aprovados, já ordenados em ordem crescente de classificação. Em cada linha, as <categorias> são dadas por um conjunto de uma ou mais categorias, separadas por vírgula, nas quais o candidato se inscreveu.
+
+Abaixo está uma forma de representar os dados de entrada utilizando listas, conjuntos e dicionários:
+
+Saida
+
+A saída contém os número de inscrição dos candidatos selecionados para ocupar as vagas, em ordem crescente, um em cada linha.
