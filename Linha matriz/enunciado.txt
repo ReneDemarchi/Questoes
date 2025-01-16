@@ -1,1 +1,22 @@
-https://www.beecrowd.com.br/repository/UOJ_1181.html
+Considere o Sistema Bancário Simplificado parcialmente implementado e discutido em sala. Complete a implementação dos métodos ali descritos e escreva um programa que leia um conjunto de operações, conforme modelo abaixo, e ao final liste os cpfs dos clientes em ordem crescente e os correspondentes saldos nas contas bancárias.
+
+As operações bancárias possíveis são:
+
+abre_conta (seguida do número do cpf e do nome do cliente)
+deposito (seguido do cpf e do valor a ser depositado)
+saque (seguido do cpf e do valor a ser sacado)
+transferencia (seguido dos cpfs de origem e destino e do valor da transferência)
+Exemplo de entrada:
+
+abre_conta 987234 Joãozinho
+abre_conta 135793 Mariazinha
+deposito 135793 150.00
+deposito 987234 80.00
+transferencia 135793 987234 40.00
+saque 135793 70.00
+saque 987234 10.00
+
+Saída:
+
+135793 40.00
+987234 110.00
